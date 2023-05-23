@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Mouse extends Model
 {
-    protected $table = 'mouse';
+    protected $table = 'mouses';
     protected $primaryKey = 'mouse_id';
     public $timestamps = false;
 

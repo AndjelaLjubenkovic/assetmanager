@@ -9,7 +9,7 @@ use DateTime;
 
 class Equipment extends Model
 {
-    protected $table = 'equipment';
+    protected $table = 'equipments';
     protected $primaryKey = 'equipment_id';
     public $timestamps = false;
  
