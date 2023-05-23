@@ -55,25 +55,6 @@ class EmployeeController extends Controller
         $employee->update($data);
         return response()->json($employee);
     }
-    
-    /*
-    public function update(Request $request, $id)
-{
-    $employee = Employee::find($id);
-    
-    if (!$employee) {
-        return response()->json(['message' => 'Employee not found'], 404);
-    }
-    
-    $employee->first_name = $request->input('first_name');
-    $employee->last_name = $request->input('last_name');
-    // Dodajte ostala polja koja želite ažurirati
-
-    $employee->save();
-
-    return response()->json($employee);
-}
-*/
 
     
 
