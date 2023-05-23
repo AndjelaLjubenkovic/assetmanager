@@ -27,7 +27,7 @@ class Equipment extends Model
         'keyboard_id' => 'int',
         'pc_id' => 'int',
         'employee_id' => 'int',
-        'date' => 'DateTime'
+        'date' => 'date:Y-m-d'
     ];
     public function mouses(): HasMany
     {
